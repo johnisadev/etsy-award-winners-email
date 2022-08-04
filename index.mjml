@@ -1,119 +1,282 @@
-<mjml>
+<mjml lang="en">
   <mj-head>
-    <mj-font
-      name="Quantico"
-      href="https://fonts.googleapis.com/css2?family=Quantico"
-    />
+    <mj-title> Award winners inside! </mj-title>
+    <mj-preview> Award winners inside! </mj-preview>
     <mj-attributes>
-      <mj-text
-        font-family="Quantico, sans-serif"
-        align="center"
-        font-size="20px"
-        line-height="26px"
-        color="#000000"
-        padding="0px"
-      />
-      <mj-image padding="0px" />
-      <mj-button
-        color="#ffffff"
-        font-size="16px"
-        font-weight="bold"
-        background-color="#f26a4d"
-        font-family="Quantico, sans-serif"
-        border-radius="0px"
-        height="45px"
-        width="200px"
-      />
-      <mj-section padding="0px" background-color="#f4f4f2" />
+      <mj-all font-family="Helvetica, Arial, sans-serif"></mj-all>
+      <mj-section background-color="#d7e6f5" padding="0"></mj-section>
+      <mj-column padding="0"></mj-column>
       <mj-class
         name="head-text"
-        font-size="48px"
-        line-height="69px"
-        text-transform="uppercase"
+        align="center"
+        font-weight="bold"
+        font-size="28px"
+        line-height="36px"
+      />
+      <mj-class
+        name="read-text"
+        font-size="16px"
+        line-height="28px"
+        font-weight="normal"
       />
     </mj-attributes>
   </mj-head>
 
-  <mj-body background-color="#F1F1F1">
-    <!-- LOGO SECTION -->
-    <mj-section background-color="#f26a4d">
+  <mj-body background-color="lightgrey" width="600px">
+    <!-- HEADER & NAV SECTION -->
+    <mj-section
+      background-color="#d7e6f5"
+      border="none"
+      padding="16px 16px 16px 16px"
+      text-align="left"
+    >
+      <mj-column
+        background-color="transparent"
+        border="none"
+        vertical-align="middle"
+        width="30%"
+      >
+        <mj-image
+          align="left"
+          alt=""
+          fluid-on-mobile="false"
+          padding="0"
+          src="img/etsy-logo.png"
+          title=""
+          width="48px"
+        ></mj-image>
+      </mj-column>
+      <mj-column
+        background-color="transparent"
+        border="none"
+        vertical-align="middle"
+        width="60%"
+      >
+        <mj-navbar base-url="https://mjml.io" hamburger="none">
+          <mj-navbar-link
+            href="/gettings-started-onboard"
+            text-decoration="underline"
+            font-size="14px"
+            >Editors' Picks</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="/try-it-live"
+            text-decoration="underline"
+            font-size="14px"
+            >Gifts</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="/templates"
+            text-decoration="underline"
+            font-size="14px"
+            >Home & Living</mj-navbar-link
+          >
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+    <!-- HERO GIF SECTION -->
+    <mj-hero
+      mode="fluid-height"
+      background-width="600px"
+      background-height="400px"
+      background-url="/img/hero-gif.gif"
+    >
+    </mj-hero>
+    <!-- HERO CONTENT SECTION -->
+    <mj-section background-color="#d7e6f5">
+      <mj-column>
+        <mj-text mj-class="read-text" align="center">
+          From tens of thousands of sellers to twelve, we're proud to present
+          the 2022 Etsy Design Awards winners! These rising stars are masters of
+          their craft. Explore the prized finds picked by judges Dayna Isom
+          Johnson and designers from The Expert (Jake Arnold, Jenna Lyons,
+          Brigette Romanek, and more), below.
+        </mj-text>
+        <mj-button
+          background-color="#000000"
+          font-size="16px"
+          line-height="30px"
+          font-weight="normal"
+          width="222px"
+          color="#ffffff"
+          border-radius="24px"
+          >A round of applause...</mj-button
+        >
+      </mj-column>
+    </mj-section>
+    <!-- GRAND PRIZE HEADER SECTION -->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="head-text"> Grand Prize Winner </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- GRAND PRIZE CONTENT SECTION -->
+    <mj-section>
       <mj-column>
         <mj-image
-          width="128px"
-          padding="20px"
-          src="/img/mjml-logo.png"
-          alt="logo"
-          title="logo"
+          src="/img/grand-prize-img.jpg"
+          alt=""
+          width="240px"
+          padding-right="5px"
+          align="center"
         />
       </mj-column>
-    </mj-section>
-    <!-- CHECK OUT THE README -->
-    <mj-section padding="20px">
-      <mj-column width="400px" padding-bottom="15px">
+      <mj-column padding-left="0">
         <mj-text
-          color="#f26a4d"
-          font-size="46px"
-          line-height="60px"
-          align="center"
+          padding-left="5px"
+          mj-class="head-text"
+          align="left"
+          font-size="20px"
+          line-height="24px"
         >
-          Congrats on starting your MJML HTML Email!
+          Large Modern Wall Hanging from We Are Lunarium
         </mj-text>
-      </mj-column>
-      <mj-column width="420px">
-        <mj-text>
-          Please check out the
-          <span style="color: #f26a4d">"README.md"</span> file for important
-          details on this MJML sarter template!
+        <mj-text mj-class="read-text" padding-left="5px">
+          “I hope that my pieces inspire customers to create spaces that make
+          them excited to live and work in.” —Tim Stevenson
         </mj-text>
-        <mj-button
-          href="https://github.com/johnisadev/mjml-email-starter/blob/main/README.md"
-        >
-          Show me the "README"
-        </mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- HANDY RESOURCES SECTION -->
-    <mj-section padding="20px">
-      <mj-column width="400px" padding-bottom="15px">
-        <mj-text
-          color="#f26a4d"
-          font-size="46px"
-          line-height="60px"
-          align="center"
-        >
-          Handy Resources
-        </mj-text>
-      </mj-column>
-      <mj-column width="420px">
-        <mj-button href="https://documentation.mjml.io/"> MJML Docs </mj-button>
-        <mj-button
-          href="https://github.com/mjmlio/mjml/blob/master/packages/mjml-cli/README.md"
-        >
-          MJML CLI Docs
-        </mj-button>
-      </mj-column>
-    </mj-section>
-
-    <!-- FOOTER SECTION -->
-    <mj-section background-color="#F1F1F1" padding-bottom="30px">
-      <mj-column width="300px" padding-top="30px">
-        <mj-social icon-size="25px" mode="vertical">
-          <mj-social-element
-            name="github"
-            href="https://github.com/johnisadev"
-            alt="Johnisadev github profile"
+        <mj-text mj-class="read-text" padding-left="5px">
+          <a
+            class="read-text"
+            style="text-decoration: none; color: #000000"
+            href="#"
+            >See more from our winner →</a
           >
-            github.com/johnisadev
-          </mj-social-element>
-        </mj-social>
-        <mj-text
-          color="#303030"
-          font-family="Helvetica"
-          font-size="12px"
-          line-height="14px"
-          padding="15px 20px 0px 20px"
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- CATEGORY DESIGN AWARD WINNERS HEADER SECTION -->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="head-text">
+          Our Category Design Award Winners
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- CATEGORY AWARD GRID -->
+    <mj-section>
+      <mj-column>
+        <mj-image
+          src="img/kitchen.png"
+          alt="kitchen and dining"
+          border-radius="6px"
+        />
+        <mj-text mj-class="read-text" align="center" padding="0">
+          Kitchen & Dining
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image
+          src="img/home.png"
+          alt="home decor and lighting"
+          border-radius="6px"
+        />
+        <mj-text mj-class="read-text" align="center" padding="0">
+          Home Decor & Lighting
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="img/furniture.png" alt="furniture" border-radius="6px" />
+        <mj-text mj-class="read-text" align="center" padding="0">
+          Furniture
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="img/art.png" alt="art" border-radius="6px" />
+        <mj-text mj-class="read-text" align="center" padding="0"> Art </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="img/clothing.png" alt="clothing" border-radius="6px" />
+        <mj-text mj-class="read-text" align="center" padding="0">
+          Clothing
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="img/vintage.png" alt="vintage" border-radius="6px" />
+        <mj-text mj-class="read-text" align="center" padding="0">
+          Vintage
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- MORE CATERGORY WINNERS BUTTON -->
+    <mj-section>
+      <mj-column>
+        <mj-button
+          background-color="transparent"
+          mj-class="read-text"
+          border="2px solid #000"
+          border-radius="24px"
+          color="#000000"
+          width="300px"
+          >See more Category Winners</mj-button
         >
-          Made With ❤️ by johnisadev
+      </mj-column>
+    </mj-section>
+    <!-- PEOPLE'S PICK HEADER SECTION -->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="head-text" padding="0">
+          People's Pick Winner
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- PEOPLE'S PICK CONTENT SECTION -->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="head-text" font-size="20px" line-height="24px">
+          Convex Aura Mirror from SurreyWoodsmiths
+        </mj-text>
+        <mj-text mj-class="read-text">
+          Congratulations to Jonathan Hitchcock of SurreyWoodsmiths, chosen by
+          our community! His effortlessly elegant design elevates an everyday
+          staple.
+        </mj-text>
+        <mj-text>
+          <a
+            class="read-text"
+            style="text-decoration: none; color: #000000"
+            href="#"
+          >
+            See more from our winner →
+          </a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="img/peoples-pick.jpg" alt="" />
+      </mj-column>
+    </mj-section>
+    <!-- DIVIDER SECTION -->
+    <mj-section>
+      <mj-column>
+        <mj-divider border-width="2px" border-color="#000000" width="550px" />
+      </mj-column>
+    </mj-section>
+    <!-- PLUS SO MUCH MORE CONTENT SECTION -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="img/peoples-pick.jpg" alt="" />
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="head-text" font-size="20px" line-height="24px">
+          Convex Aura Mirror from SurreyWoodsmiths
+        </mj-text>
+        <mj-text mj-class="read-text">
+          Congratulations to Jonathan Hitchcock of SurreyWoodsmiths, chosen by
+          our community! His effortlessly elegant design elevates an everyday
+          staple.
+        </mj-text>
+        <mj-text>
+          <a
+            class="read-text"
+            style="text-decoration: none; color: #000000"
+            href="#"
+          >
+            See more from our winner →
+          </a>
         </mj-text>
       </mj-column>
     </mj-section>
