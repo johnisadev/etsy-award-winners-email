@@ -4,8 +4,10 @@
     <mj-preview> Award winners inside! </mj-preview>
     <mj-attributes>
       <mj-all font-family="Helvetica, Arial, sans-serif"></mj-all>
-      <mj-section background-color="#d7e6f5" padding="0"></mj-section>
+      <mj-section background-color="#d7e6f5" padding="10px"></mj-section>
       <mj-column padding="0"></mj-column>
+      <mj-image padding="0 15px" />
+      
       <mj-class
         name="head-text"
         align="center"
@@ -79,7 +81,7 @@
       mode="fluid-height"
       background-width="600px"
       background-height="400px"
-      background-url="/img/hero-gif.gif"
+      background-url="https://i.ibb.co/D7L3r8C/hero-gif.gif"
     >
     </mj-hero>
     <!-- HERO CONTENT SECTION -->
@@ -114,34 +116,39 @@
     <mj-section>
       <mj-column>
         <mj-image
-          src="/img/grand-prize-img.jpg"
-          alt=""
+          src="https://i.ibb.co/9rFK2Yd/grand-prize-img.jpg"
+          alt="etsy award winner 2022"
           width="240px"
-          padding-right="5px"
           align="center"
         />
       </mj-column>
-      <mj-column padding-left="0">
+      <mj-column>
         <mj-text
-          padding-left="5px"
           mj-class="head-text"
           align="left"
           font-size="20px"
           line-height="24px"
+          padding="0"
         >
           Large Modern Wall Hanging from We Are Lunarium
         </mj-text>
-        <mj-text mj-class="read-text" padding-left="5px">
+        <mj-text mj-class="read-text" padding="20px 15px 0 0">
           “I hope that my pieces inspire customers to create spaces that make
           them excited to live and work in.” —Tim Stevenson
         </mj-text>
-        <mj-text mj-class="read-text" padding-left="5px">
+        <mj-text mj-class="read-text" align="left" padding="20px 0">
           <a
             class="read-text"
-            style="text-decoration: none; color: #000000"
+            style="
+              text-decoration: none;
+              color: #000000;
+              align: left;
+              padding: 0;
+            "
             href="#"
-            >See more from our winner →</a
           >
+            See more from our winner →
+          </a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -155,7 +162,7 @@
     </mj-section>
     <!-- CATEGORY AWARD GRID -->
     <mj-section>
-      <mj-column>
+      <mj-column padding="0">
         <mj-image
           src="img/kitchen.png"
           alt="kitchen and dining"
@@ -212,8 +219,9 @@
           border-radius="24px"
           color="#000000"
           width="300px"
-          >See more Category Winners</mj-button
         >
+          See more Category Winners
+        </mj-button>
       </mj-column>
     </mj-section>
     <!-- PEOPLE'S PICK HEADER SECTION -->
@@ -227,57 +235,144 @@
     <!-- PEOPLE'S PICK CONTENT SECTION -->
     <mj-section>
       <mj-column>
-        <mj-text mj-class="head-text" font-size="20px" line-height="24px">
+        <mj-text
+          mj-class="head-text"
+          align="left"
+          font-size="20px"
+          line-height="24px"
+          padding-left="15px"
+        >
           Convex Aura Mirror from SurreyWoodsmiths
         </mj-text>
-        <mj-text mj-class="read-text">
+        <mj-text mj-class="read-text" padding="0px 0 0 15px">
           Congratulations to Jonathan Hitchcock of SurreyWoodsmiths, chosen by
           our community! His effortlessly elegant design elevates an everyday
           staple.
         </mj-text>
-        <mj-text>
+        <mj-text mj-class="read-text" align="left" padding="10px 0">
           <a
             class="read-text"
-            style="text-decoration: none; color: #000000"
+            style="
+              text-decoration: none;
+              color: #000000;
+              align: left;
+              padding-left: 15px;
+            "
             href="#"
           >
             See more from our winner →
           </a>
         </mj-text>
       </mj-column>
-      <mj-column>
-        <mj-image src="img/peoples-pick.jpg" alt="" />
+      <mj-column width="240px">
+        <mj-image
+          src="/img/peoples-pick.jpg"
+          alt=""
+          width="240px"
+          align="center"
+          padding="0"
+        />
       </mj-column>
     </mj-section>
     <!-- DIVIDER SECTION -->
     <mj-section>
       <mj-column>
-        <mj-divider border-width="2px" border-color="#000000" width="550px" />
+        <mj-divider border-width="2px" border-color="#000000" />
       </mj-column>
     </mj-section>
     <!-- PLUS SO MUCH MORE CONTENT SECTION -->
     <mj-section>
       <mj-column>
-        <mj-image src="img/peoples-pick.jpg" alt="" />
+        <mj-image
+          src="/img/so-much-more.jpg"
+          alt=""
+          width="240px"
+          align="center"
+        />
       </mj-column>
       <mj-column>
-        <mj-text mj-class="head-text" font-size="20px" line-height="24px">
-          Convex Aura Mirror from SurreyWoodsmiths
+        <mj-text
+          mj-class="head-text"
+          align="left"
+          font-size="20px"
+          line-height="24px"
+          padding="0"
+        >
+          Plus so much more
         </mj-text>
-        <mj-text mj-class="read-text">
-          Congratulations to Jonathan Hitchcock of SurreyWoodsmiths, chosen by
-          our community! His effortlessly elegant design elevates an everyday
-          staple.
+        <mj-text mj-class="read-text" padding="10px 15px 0 0">
+          Explore (and shop!) the full lineup of prize-winning pieces and learn
+          the stories that make them so extraordinary.
         </mj-text>
-        <mj-text>
+        <mj-text mj-class="read-text" align="left" padding="10px 0">
           <a
             class="read-text"
-            style="text-decoration: none; color: #000000"
+            style="
+              text-decoration: none;
+              color: #000000;
+              align: left;
+              padding: 0;
+            "
             href="#"
           >
-            See more from our winner →
+            Meet the sellers →
           </a>
         </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- INSPIRED BY YOUR HISTOR SECTION -->
+    <mj-section background-color="#ffffff">
+      <mj-column>      
+        <mj-text align="center">
+          <div style="border: 2px lightgrey solid; border-radius: 24px; padding: 10px;">
+            <div align="center">
+              <img src="img/history-icon.png" alt="Etsy history" width="60px" />
+              <h2>Inspired by your Etsy History
+            </div>
+            <a href="https://etsy.com"><img src="img/history-1.jpg" style="padding: 12px;" width="135px" alt="" /></a>
+            <a href="https://etsy.com"><img src="img/history-2.jpg" style="padding: 12px;" width="135px" alt="" /></a>
+            <a href="https://etsy.com"><img src="img/history-1.jpg" style="padding: 12px;" width="135px" alt="" /></a>
+            <a href="https://etsy.com"><img src="img/history-2.jpg" style="padding: 12px;" width="135px" alt="" /></a>
+            <a href="https://etsy.com"><img src="img/history-1.jpg" style="padding: 12px;" width="135px" alt="" /></a>
+            <a href="https://etsy.com"><img src="img/history-2.jpg" style="padding: 12px;" width="135px" alt="" /></a>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- FOOTER SECTION -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image src="img/esty-logo-black.png" alt="logo" width="72px" align="left"/>
+        <mj-text>
+          <b>A community doing good</b>
+          <b>Live support 247</b>
+        </mj-text>
+        <mj-divider border-color="lightgrey" border-width="2px" />
+      </mj-column>
+    </mj-section>
+    <!-- social media section -->
+    <mj-section background-color="#ffffff">
+      <mj-column width="30%" padding-top="10px">
+        <mj-text padding-top="10px">
+          <b style="padding-top:20px;">Let's be friends</b>
+        </mj-text>
+        
+      </mj-column>
+      <mj-column width="70%">
+        <mj-social icon-size="30px" mode="horizontal" align="left">
+          <mj-social-element name="instagram" href="https://instagram.com" alt="instagram">
+
+          </mj-social-element>
+          <mj-social-element name="facebook" href="https://faebook.com" alt="facebook"></mj-social-element>
+          <mj-social-element name="pintrest" href="https://pintrest.com" alt="pintrest"></mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com" alt="twitter"></mj-social-element>
+        </mj-social>
+      </mj-column>
+      
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-divider border-color="lightgrey" border-width="2px" padding-top="0" padding-bottom="0"/>
       </mj-column>
     </mj-section>
   </mj-body>
